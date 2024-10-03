@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body{
+margin: 10px;
+
+}
+
+form{
+  width: 600px;
+  border: 2px solid #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 28px;
+  border-radius: 10px ;
+  border: 1x solid #ccc;
+}
+
+label,input,select,textarea{
+  display: block;
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: green;
+  width: 100px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+div{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  text-align: center;
+  margin: 15px;
+}
